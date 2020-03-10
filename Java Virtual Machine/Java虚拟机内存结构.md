@@ -4,7 +4,7 @@
 - JRE
 - JVM
 
-![JDK结构](img/JDK Model.png)
+![JDK结构]( https://github.com/ZQ0815/MyBlog/img/JDK Model.png)
 # 程序运行过程
 
 # Java虚拟机的组成
