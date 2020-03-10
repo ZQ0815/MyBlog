@@ -1,2 +1,5 @@
 # MyBlog
-Java学习笔记：JavaSe、JavaEE、Spring全家桶、Java虚拟机等
+
+**笔记**
+
+- ![Java Virtual Machine](Java Virtual Machine/Java虚拟机内存结构.md)
