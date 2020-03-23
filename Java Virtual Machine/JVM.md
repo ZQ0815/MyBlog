@@ -8,5 +8,5 @@
 - [07-Class类文件](https://github.com/ZQ0815/MyBlog/tree/master/Java%20Virtual%20Machine/notes/07-Class类文件.md)
 - [08-类加载时机](https://github.com/ZQ0815/MyBlog/tree/master/Java%20Virtual%20Machine/notes/08-类加载时机.md)
 - [09-类加载过程](https://github.com/ZQ0815/MyBlog/tree/master/Java%20Virtual%20Machine/notes/09-类加载过程.md)
-- [10-类加载过程](https://github.com/ZQ0815/MyBlog/tree/master/Java%20Virtual%20Machine/notes/10-类加载器.md)
+- [10-类加载器](https://github.com/ZQ0815/MyBlog/tree/master/Java%20Virtual%20Machine/notes/10-类加载器.md)
 - [11-虚拟机字节码执行引擎](https://github.com/ZQ0815/MyBlog/tree/master/Java%20Virtual%20Machine/notes/11-虚拟机字节码执行引擎.md)
