@@ -32,6 +32,7 @@
 获得报文首部
 - DELETE
 删除URL指定的资源
+>[GET和POST区别](https://juejin.im/post/5cb67cf1518825324e689f69)
 
 ## 使用Cookie来进行状态管理
 
