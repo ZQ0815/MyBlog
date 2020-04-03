@@ -35,5 +35,10 @@
 3. 广播通信
 
 ## TCP与UDP的使用场景区别
+1） TCP提供面向连接的传输，通信前要先建立连接（三次握手机制）； UDP提供无连接的传输，通信前不需要建立连接。
+2） TCP提供可靠的传输（有序，无差错，不丢失，不重复）； UDP提供不可靠的传输。
+3） TCP面向字节流的传输，因此它能将信息分割成组，并在接收端将其重组； UDP是面向数据报的传输，没有分组开销。
+4） TCP提供拥塞控制和流量控制机制； UDP不提供拥塞控制和流量控制机制。
 ![TCP-UDP区别](../img/TCP-UDP区别.png)
 ![TCP与UDP的使用场景](../img/TCP与UDP的使用场景.png)
+>[参考文献](https://blog.csdn.net/striveb/article/details/84063712?depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-1&utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-1)
