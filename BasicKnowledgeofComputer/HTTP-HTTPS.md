@@ -12,6 +12,7 @@
 4. 可选的请求首部字段
 5. 实体内容
 ![HTTP请求](../img/img1/HTTP请求-1.png)
+>[HTTP请求头](https://www.cnblogs.com/jycboy/archive/2017/02/17/http_head.html)
 
 ## 响应报文的组成
 1. 协议版本
