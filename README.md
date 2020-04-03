@@ -5,7 +5,7 @@
 
 ### Java笔记
 - [Java Virtual Machine](https://github.com/ZQ0815/MyBlog/tree/master/Java%20Virtual%20Machine/JVM.md)
-- [MyBatis](https://github.com/ZQ0815/MyBlog/tree/master/MyBatis/MyBatis.md)
+- [JavaBase](https://github.com/ZQ0815/MyBlog/tree/master/JavaBase/JavaBase.md)
 - [Java并发编程从入门到入土](https://github.com/ZQ0815/MyBlog/tree/master/Multithreading/Multithreading.md)
 
 ### Spring全家桶
@@ -17,8 +17,10 @@
 ### 数据库笔记
 - [MySql](https://github.com/ZQ0815/MyBlog/tree/master/MySql/Mysql.md)
 - [Redis](https://github.com/ZQ0815)
+- [MyBatis](https://github.com/ZQ0815/MyBlog/tree/master/MyBatis/MyBatis.md)
 
 ### 运维部署
+- [Linux](https://github.com/ZQ0815/MyBlog/tree/master/Linux/Linux.md)
 - [Docker](https://github.com/ZQ0815)
 
 ### 算法和数据结构
