@@ -1,6 +1,5 @@
 ## AOP
 AOP中的概念：
-
 ###横切关注点
 对哪些方法进行拦截，拦截后怎么处理，这些关注点称之为横切关注点
 ###切面
@@ -67,3 +66,7 @@ AOP中的概念：
 @Pointcut("execution()")：指明切入点
 @Around("pointMethod()")：指明连接点之间的环绕方法
 ```
+
+
+## 参考文献
+>[AOP-1](https://blog.csdn.net/dadiyang/article/details/82920139)
