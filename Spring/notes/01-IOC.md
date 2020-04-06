@@ -101,7 +101,7 @@ IoC(思想，设计模式)主要的实现方式有两种：依赖查找，依赖
    2. populateBean ：对Bean属性的依赖注入进行处理
       1. 属性值类型不需要转换时，不需要解析属性值，直接准备进行依赖注入。
       2. 属性值需要进行类型转换时，如对其他对象的引用等，首先需要解析属性值，然后对解析后的属性值进行依赖注入。
-4. 对需要进行依赖注入的属性：autowireByName在RootBeanDefinition中查找属性的信息如果是依赖的属性，初始化该属性实例对象，然后调用applyPropertyValues设置bean实例的属性值完成依赖注入。
+4. 查需要进行依赖注入的属性：autowireByName在RootBeanDefinition中查找属性的信息如果是依赖的属性，初始化该属性实例对象，然后调用applyPropertyValues设置bean实例的属性值完成依赖注入。
 
 
 ## 依赖注入详解
