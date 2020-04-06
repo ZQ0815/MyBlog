@@ -30,3 +30,4 @@
 ## Blog
 ### 技术
 ### 心得
+- [用十年的时间学会编程，而不是7天](https://github.com/ZQ0815/MyBlog/tree/master/Blogs/00-用10年时间学编程.md)
