@@ -5,6 +5,7 @@
 
 ## String
 >String底层是一个final类型的字符数组,每次对String的操作都会生成新的String对象，造成内存浪费.
+>[String详解](https://www.zhihu.com/question/29884421)
 
 ## StringBuffer
 >继承AbstractStringBuilder，同时是线程安全。底层是一个动态数组。
@@ -48,3 +49,7 @@ public void test() {
 1. 在字符串不经常发生变化的业务场景优先使用String(代码更清晰简洁)。
 2. 在单线程情况下，如有大量的字符串操作情况，应该使用StringBuilder来操作字符串。
 3. 在多线程情况下，如有大量的字符串操作情况，应该使用StringBuffer。
+
+## 关于String对象为什么不可变？
+>[String对象为什么不可变](https://www.zhihu.com/question/31345592)
+>[为什么String不可变](https://www.jb51.net/article/184283.htm)
