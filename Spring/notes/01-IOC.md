@@ -85,9 +85,9 @@ IoC(思想，设计模式)主要的实现方式有两种：依赖查找，依赖
 
 ## IOC容器启动步骤
 
-1. 资源文件位置的定位
-2. 容器通过 BeanDefinitionReader来完成信息的解析和 Bean 信息的注册，将bean信息存入到BeanDefinition中对象
-3. 然后将BeanDefinition信息注册到一个HashMap中。
+1. ResourceLoader加载配置文件
+2. 容器通过 BeanDefinitionReader来解析配置文件中bean里面的信息，将bean信息存入到BeanDefinition中对象
+3. 然后将单例的BeanDefinition信息注册到一个HashMap缓存器中。
 
 ## 依赖注入过程简介
 1. 发生时机：
