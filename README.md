@@ -16,7 +16,7 @@
 
 ### 数据库笔记
 - [MySql](https://github.com/ZQ0815/MyBlog/tree/master/MySql/Mysql.md)
-- [Redis](https://github.com/ZQ0815)
+- [Redis](https://github.com/ZQ0815/MyBlog/tree/master/Redis/Redis.md)
 - [MyBatis](https://github.com/ZQ0815/MyBlog/tree/master/MyBatis/MyBatis.md)
 
 ### 运维部署
