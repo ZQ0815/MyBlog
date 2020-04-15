@@ -11,7 +11,7 @@
 ### Spring全家桶
 - [Spring](https://github.com/ZQ0815/MyBlog/tree/master/Spring/Spring.md)
 - [Springmvc](https://github.com/ZQ0815)
-- [Springboot](https://github.com/ZQ0815)
+- [Springboot](https://github.com/ZQ0815/MyBlog/tree/master/SpringBoot/SpringBoot.md)
 - [SpringCloud](https://github.com/ZQ0815/MyBlog/tree/master/SpringCloud/SpringCloud.md)
 
 ### 数据库笔记
