@@ -33,8 +33,10 @@
 - [数据结构](https://github.com/ZQ0815/MyBlog/tree/master/Algorithm/Algorithm.md)
 - [设计模式](https://github.com/ZQ0815/MyBlog/tree/master/DesignPattern/DesignPattern.md)
 
-## Blog
-### 心得
-- [00-用十年的时间学会编程，而不是7天](https://github.com/ZQ0815/MyBlog/tree/master/Blogs/00-用10年时间学编程.md)
+### 版本控制&项目管理
+- [Git](https://github.com/ZQ0815/MyBlog/tree/master/Git/Git.md)
 
-### 技术实践
+## Blog
+
+### 博文
+- [00-用十年的时间学会编程，而不是7天](https://github.com/ZQ0815/MyBlog/tree/master/Blogs/00-用10年时间学编程.md)
