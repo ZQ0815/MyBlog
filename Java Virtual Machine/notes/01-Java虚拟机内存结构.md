@@ -144,3 +144,5 @@ Full GC 是发生在老年代的垃圾收集动作，所采用的是标记-清�
 ## 参考文献
 [永久代和元空间](https://www.cnblogs.com/paddix/p/5309550.html)
 [JVM内存溢出和合理分配](https://blog.csdn.net/ye1992/article/details/9344807)
+[java中的静态变量和Class对象究竟存放在哪个区域？](https://www.zhihu.com/question/59174759/answer/163207831)
+[java中类加载过程中class类会有class对象来表示?](https://www.zhihu.com/question/363294504/answer/954903323)

@@ -2,7 +2,7 @@
 
 ## 目录
 - [01-Java虚拟机内存结构](https://github.com/ZQ0815/MyBlog/tree/master/Java%20Virtual%20Machine/notes/01-Java虚拟机内存结构.md)
-- [02-对象访问](https://github.com/ZQ0815/MyBlog/tree/master/Java%20Virtual%20Machine/notes/01-Java虚拟机内存结构.md)
+- [02-对象访问-创建过程](https://github.com/ZQ0815/MyBlog/tree/master/Java%20Virtual%20Machine/notes/01-Java虚拟机内存结构.md)
 - [03-垃圾收集策略与算法](https://github.com/ZQ0815/MyBlog/tree/master/Java%20Virtual%20Machine/notes/03-垃圾收集策略与算法.md)
 - [04-垃圾收集器](https://github.com/ZQ0815/MyBlog/tree/master/Java%20Virtual%20Machine/notes/04-垃圾收集器.md)
 - [05-内存分配和回收策略](https://github.com/ZQ0815/MyBlog/tree/master/Java%20Virtual%20Machine/notes/05-内存分配和回收策略.md)
