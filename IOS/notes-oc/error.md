@@ -22,3 +22,6 @@
 - Terminating app due to uncaught exception 'NSRangeException', reason: '*** 
 
  1.数组越界访问，循环遍历的时候出错
+ 
+ 
+ 
