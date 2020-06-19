@@ -23,5 +23,6 @@
 
  1.数组越界访问，循环遍历的时候出错
  
- 
+- unrecognized selector sent to instance
+ 1. 比如给UIImage复制类NSData类型，复制类型不正确
  
