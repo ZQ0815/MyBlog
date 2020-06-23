@@ -22,3 +22,42 @@
 @property 默认提供 var: _name、methods: name()、setName();
 但是如果想要在重写set/get方法中使用_name需要使用@synthesize name = _name;来像.m文件中添加属性。
 因为@property默认给该属性生成getter和setter方法，当getter和setter方法同时被重写时，则系统就不会自动生成getter和setter方法了，也不会自动帮你生成_num变量，所以不会识别。
+
+## 参数列表
+
+### 内存管理特性
+- retain  
+- assign  
+- copy  
+- strong    
+- weak     
+- unsafe_unretained     
+- autoreleasing
+
+1. assign: setter方法直接赋值，不进行任何retain操作，不改变引用计数。该方法只会针对“纯量类型”(CGFloat或NSInteger等)和C数据类型（int, float, double, char, 等等）的简单赋值操作，id类型也要用assign，所以一般iOS中的代理delegate属性都会用assign来标示。
+
+2. retain：生成符合内存管理的set方法（release旧值，retain新值），适用于OC对象的成员变量。
+
+3. copy：生成符合内存管理的set方法（release旧值，copy新值），适用于NSString、NSArray等不可变对象。和strong类似，不过该属性会被复制一个新的副本。很多时候使用copy是为了防止Mutable（可变类型）在我们不知道的情况下修改了属性值，而用copy可以生成一个不可变的副本防止被修改。如果我们自己实现setter方法的话，需要手动copy。
+
+4. strong：强引用，其存亡直接决定了所指向对象的存亡。使用该特性实例变量在赋值时，会释放旧值同时设置新值，对对象产生一个强引用，即引用计数+1。如果不存在指向一个对象的引用，并且此对象不再显示在列表中，则此对象会被从内存中释放。
+
+5. weak：表示的是一个弱引用，这个引用不会增加对象的引用计数，并且在所指向的对象被释放之后，weak指针会被置为nil。weak引用通常是用于处理循环引用的问题，如代理及block的使用中，相对会较多的使用到weak。即使一个对象被持有无数个弱引用，只要没有强引用指向它，那么还是会被清除。相比于assign，声明为weak的指针，指针指向的地址一旦被释放，这些指针都将被赋值为 nil。这样的好处能有效的防止野指针。一般iOS的ARC中的代理delegate属性都会用weak
+
+
+### 读写特性
+- readwrite
+- readonly
+
+### 多线程特性
+- nonatomic
+- atomic
+
+
+### 方法名特性
+- setter
+- getter
+
+
+
+
