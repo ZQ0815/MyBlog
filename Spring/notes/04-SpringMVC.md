@@ -13,6 +13,14 @@ Spring工作流程描述
 6.  根据返回的ModelAndView，选择一个适合的视图解析器，返回给DispatcherServlet ；
 7. 视图解析器结合Model和View渲染视图
 8. 将渲染结果返回给客户端。
+一定要讲，加分项，不然晾凉了
+开源项目，
+
+索引
+增加表结构复杂性
+考虑redis
+分表
+查询参加一个比赛一个队伍的所有成员
 
 ## 参考资料
 >[SprignMVC-1](https://juejin.im/post/5c3cadf56fb9a049ac796839)
