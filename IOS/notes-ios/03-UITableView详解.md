@@ -219,5 +219,14 @@ UIViewController<UITableViewDataSource,UITableViewDelegate>
 }
 ```
 
+## 头部视图和尾部视图
+
+## 常用操作
+### 去除cell未满屏幕是多余的分割线
+```
+_tableView.tableFooterView = [[UIView alloc] init];
+```
+
+
 ## 参考文献
 [reference-1](https://www.cnblogs.com/gfxxbk/p/5406905.html)
