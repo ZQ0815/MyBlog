@@ -74,6 +74,9 @@ cell.imageView.image = UIGraphicsGetImageFromCurrentImageContext();
 UIGraphicsEndImageContext();
 ```
 
+## 单元格复用原理
+
+
 ## 参考文章
 [reference-属性详解](https://my.oschina.net/u/2340880/blog/410421)
 

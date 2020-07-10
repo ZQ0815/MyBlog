@@ -220,6 +220,11 @@ UIViewController<UITableViewDataSource,UITableViewDelegate>
 ```
 
 ## 头部视图和尾部视图
+### tableHeaderView
+添加个人介绍和信息头像等图片
+
+### tableFooterView
+添加一些button和其他选项
 
 ## 常用操作
 ### 去除cell未满屏幕是多余的分割线
