@@ -126,7 +126,7 @@ $ git branch -a
 $ git branch [branch-name]
  
 # 新建一个分支，并切换到该分支
-$ git checkout -b [branch]
+$ so
  
 # 新建一个分支，指向指定commit
 $ git branch [branch] [commit]
