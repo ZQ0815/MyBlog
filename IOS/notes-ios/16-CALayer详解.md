@@ -3,6 +3,18 @@
 ## CALayer是什么
 >[官方文档](https://developer.apple.com/documentation/quartzcore/calayer)
 
+## contents属性
+**contentsScale**
+- [理解contentsScale](https://joeshang.github.io/2015/01/10/2015-01-10-understand-contentsscale/)
+
+**masksToBounds**
+规定超出frame的部门不显示
+
+**寄宿图的绘制方法**
+- contents 直接赋值 (__bridge id)image.CGImage;
+- 
+
+
 ## 参考文献
 - [1](https://www.jianshu.com/p/55e0fa27f817)
 - [2](https://www.jianshu.com/p/079e5cf0f014)
