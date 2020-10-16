@@ -12,4 +12,4 @@ ppDelegate 外还会有一个 SceneDelegate，这是为了实现iPadOS支持多�
 
 ## 参考文档
 >[reference-1](https://www.jianshu.com/p/20df9eb8c913)
-
+>[xcode删除自带SceneDelegate](https://www.codenong.com/jsdfd62c9136fb/)
