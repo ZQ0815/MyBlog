@@ -12,7 +12,27 @@
 
 **寄宿图的绘制方法**
 - contents 直接赋值 (__bridge id)image.CGImage;
-- 
+
+## 图形几何学
+**三个重要的布局属性**
+UIView：
+- frame
+- bounds
+- center
+
+Layer：
+- frame
+- bounds
+- position
+
+**锚点**
+- anchorPoint
+
+**拉伸过滤**
+- 没看懂
+
+**组透明**
+- CAlayer.shouldRasterize属性实现图层及其子图层都会被整合成一个整体的图片
 
 
 ## 参考文献
